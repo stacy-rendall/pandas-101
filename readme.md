@@ -8,6 +8,7 @@ This ready to clone repository contains a beginner-friendly workflow using Pytho
  - Load datasets
  - Filter and transform data
  - Perform basic calculations
+ - Plot outputs
  - Export results
 
 
@@ -34,7 +35,11 @@ IPython Notebooks provide a visual interactive means of running Python scripts a
     - Windows cmd.exe: `.venv\Scripts\activate.bat`
     - Windows PowerShell: `.venv\Scripts\Activate.ps1`
     - See the documentation for other configurations: https://docs.python.org/3/library/venv.html#how-venvs-work
-1. install dependencies: `pip install -r requirements.txt`
+1. install dependencies: `pip install -r requirements.txt`, which will install:
+    - `ipykernel` Python Notebooks functionality
+    - `matplotlib` plotting/charting
+    - `openpyxl` read/write Excel
+    - `pandas` data analysis library
 1. open this folder in VS Code
-1. in VS Code open the `*.ipynb` file
-
+1. in VS Code open the `example.ipynb` file
+1. use the run buttons to run specific cells or the entire Notebook
