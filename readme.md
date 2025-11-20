@@ -14,9 +14,9 @@ This ready to clone repository contains a beginner-friendly workflow using Pytho
 
 ## Note
 
-There are a **lot** of ways to install Python, manage packages, run analyses and interact with Notebooks. Advanced users can take these recommendations with a hefty grain of salt - this repository outlines a simple and stable flow that should be easy for Python or Pandas beginners to get started with.
+There are a **lot** of ways to install Python, manage packages, run analyses and interact with Notebooks. Advanced users can take these recommendations with a hefty grain of salt - this repository outlines a simple and stable flow that should be easy for Python/Pandas beginners.
 
-IPython Notebooks provide a visual interactive means of running Python scripts and immediately viewing the output. This is very handy in some situations and not useful or appropriate in other contexts. To develop complex flows I often find myself developing the core functionality against a test dataset in a Notebook and then copying the functional code to a script for the "real" runs.
+IPython Notebooks provide a visual interactive means of running Python scripts and immediately viewing the output. Notebooks are very handy in some situations, but not appropriate in other contexts. Sometimes, I will use a Notebook to develop core functionality using a test dataset, then copy the functional code out for something like an API service, other times a Notebook is all I need.
 
 
 ## Prerequisites
@@ -29,7 +29,7 @@ IPython Notebooks provide a visual interactive means of running Python scripts a
 
 1. clone this repository (if using Git) or "Download ZIP" from GitHub
 1. navigate a command prompt or terminal to the folder containing this readme
-1. use your system Python to create a virtual environment in a new `.venv` folder: `<python> -m venv .venv`
+1. use your system Python (see [Prerequisites](#prerequisites)) to create a new `.venv` folder and install the virtual environment in it: `<python> -m venv .venv`
 1. activate the virtual environment:
     - Linux/macOS (bash/zsh): `source .venv/bin/activate`
     - Windows cmd.exe: `.venv\Scripts\activate.bat`
@@ -40,6 +40,6 @@ IPython Notebooks provide a visual interactive means of running Python scripts a
     - `matplotlib` plotting/charting
     - `openpyxl` read/write Excel
     - `pandas` data analysis library
-1. open this folder in VS Code
+1. open this folder in VS Code: `code .`
 1. in VS Code open the `example.ipynb` file
-1. use the run buttons to run specific cells or the entire Notebook
+1. use the run buttons to run specific cells or run all to run the entire Notebook
